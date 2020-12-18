@@ -10,7 +10,7 @@ def local(A):
         if (ord(x)>64 and ord(x)<91) or (ord(x)>96 and ord(x)<123) or (ord(x)>47 and ord(x)<57) or x=='!' or x=='#' or x=='$' or x=='%' or x=='^' or x=='&' or x=='*' or x=='{' or x=='}' or x=='_' or x=='+' or x=='-' or x=='=' or x=='/' or x=="'" or ord(x)==126:
             x1=0
         else:
-            x=1
+            x1=1
     if A[0]=='.' or A[len(A)-1]=='.':
         x2=1
     else:
